@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Web Reformas</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Marvel:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/web-reformas/main.css">
+
+</head>
+<body>
+	
+	<nav id="navigate-bar" class="c-navigate-bar">
+		<div class="c-navigate-bar__logo">
+			<img src="img/web-reformas/proto-logo.png">
+			<span>MiEmpresa</span>
+		</div>
+		<ul class="c-navigate-bar__wrap-items">
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">Galeria</a></li>
+			<li><a href="#">Contacto</a></li>
+			<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+		</ul>
+		<div class="c-navigate-bar__btn-menu" data-btn-menu-nav>
+			<a href="#">
+				<i class="fa fa-align-justify" aria-hidden="true"></i>
+			</a>
+		</div>
+	</nav>
+
+	<div id="header-slider" class="c-header-slider">
+		<div class="c-header-slider__back-image c-header-slider__back-image--selected"></div>
+		<div class="c-header-slider__back-image"></div>
+		<div class="c-header-slider__back-image"></div>
+		<div class="c-header-slider__legend">
+			<p>Muebles a medida, <br> trabajos artesanales ... </p>
+		</div>
+		<div class="c-header-slider__sub-logo">
+			<img src="img/web-reformas/proto-logo.png" alt="">
+			<p>Artesanos</p>
+		</div>
+	</div>
+
+	<div class="container" id="container-services">
+		<div class="row">
+			<div class="col">
+				<div class="c-picture-service">
+					<div class="c-picture-service__img"></div>
+					<p>Service 1</p>
+				</div>
+			</div>
+			<div class="col">
+				<div class="c-picture-service">
+					<div class="c-picture-service__img"></div>
+					<p>Service 2</p>
+				</div>
+			</div>
+			<div class="col">
+				<div class="c-picture-service">
+					<div class="c-picture-service__img"></div>
+					<p>Service 3</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr class="shadow-base">
+
+	<div class="container-fluid" id="contenedor-galeria">
+		<h3 class="text-center">Galeria</h3>
+		<div class="row">
+			<div class="col">
+				<a href="" data-fn-set-item data-item="1">
+					<figure>
+						<img src="img/web-reformas/product-1.jpg" class="img-fluid img-thumbnail">
+						<figcaption>Ventana 1</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col">
+				<a href="<?php echo site_url('ventana'); ?>" data-fn-set-item data-item="2">
+					<figure>
+						<img src="img/web-reformas/product-2.jpg" class="img-fluid img-thumbnail" >
+						<figcaption>Ventana 2</figcaption>						
+					</figure>  
+				</a>
+			</div>
+			<div class="col">
+				<a href="<?php echo site_url('ventana'); ?>" data-fn-set-item data-item="3">
+					<figure>
+						<img src="img/web-reformas/product-3.jpg "class="img-fluid img-thumbnail">
+						<figcaption>Ventana 3</figcaption>
+					</figure>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="container-about">
+		<div class="row">
+			<div class="col-lg-5 col-md-5">
+				<img class="worker" src="img/web-reformas/back-worker.png">
+			</div>
+			<div class="col-lg-7 col-md-7">
+				<h3>Contamos con 5 años de experiencia en la industria</h3>
+				<p>Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci lisis. Lorem ipsum dolor sit ametion consectetur elit. Vesti bulum nec.</p>
+				<div class="row">
+					<div class="col">
+						<img src="img/web-reformas/back-ebanisteria-4.jpg" class="img-thumbnail">
+					</div>
+					<div class="col">
+						<img src="img/web-reformas/service.jpg" class="img-thumbnail">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer-page">
+		<div class="container">
+			<div class="wrap-logo-line-separator">
+				<div class="wrap-logo-line-separator__logo">
+					<img src="img/web-reformas/proto-logo.png">
+					<span>MiEmpresa</span>
+				</div>
+				<hr>
+			</div>
+
+			<div class="row">
+				<div class="col-6 col-md-4 col-lg-4">
+					<h5>Contactanos</h5>
+					<ul class="unstyled">
+						<li>
+							<i class="fa fa-map-marker"></i>
+							C/ Sierra de los filabres, 45
+						</li>
+						<li>
+							<i class="fa fa-phone"></i>
+							900 675 897
+						</li>
+						<li>
+							<i class="fa fa-facebook-square"></i>
+							<a href="#" class="">facebook.com/mypage</a>
+						</li>
+						<li>
+							<i class="fa fa-envelope-o"></i>
+							info@miempresa
+						</li>
+						<li>
+							<button class="btn btn-primary">Contactanos</button>
+						</li>
+					</ul>
+				</div>
+				<div class="col-6 col-md-4 col-lg-4">
+					<h5>Servicios</h5>
+					<ul class="unstyled">
+						<li>Servicio 1</li>
+						<li>Servicio 2</li>
+						<li>Servicio 3</li>
+					</ul>
+				</div>
+				<div class="col-6 col-md-4 col-lg-4">
+					<h5>Trabajos</h5>
+					<p>Todos nuestros trabajos hechos a particulares y empresas</p>
+					<a href="#" class="btn btn-primary">ir a Galeria</a>
+				</div>
+			</div>
+		</div>
+		<p class="text-center">&copy;MiEmpresa - 2018</p>
+	</footer>
+
+	<!-- MENU MOBILE -->
+	<div class="c-nav-menu-mobile">
+	
+		<a href="#" data-btn-menu-nav class="c-nav-menu-mobile__btn-menu">
+			<i class="fa fa-times"></i>
+		</a>
+
+		<ul class="c-nav-menu-mobile__list">
+			<li class="c-nav-menu-mobile__list__item">
+				<a href="">
+					<i class="fa fa-grav"></i> 
+				</a>
+			</li>
+			<li class="c-nav-menu-mobile__list__item">
+				<a href="">Galerias a medida</a>
+			</li>
+			<li class="c-nav-menu-mobile__list__item">
+				<a href="https://chejox.neocities.org" target="_blank">Aplicación Web</a>
+			</li>
+		</ul>
+		
+	</div>
+
+	<script src="js/web-reformas/jquery.js"></script>
+	<script src="js/web-reformas/response.js"></script>
+	<script src="js/web-reformas/ejemplo-1.js"></script>
+
+</body>
+</html>

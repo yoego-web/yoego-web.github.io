@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- GOOGLE FONTS -->
+	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Poppins:100,200,300,300i,400,500,600&display=swap">
+	<!-- SYNTAX CSS -- PRISM-JS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism-okaidia.min.css" />
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="css/portfolio-cv.css">
+
+	<title>Portafolio</title>
+</head>
+<body>
+
+	<!-- CAPA DE PRESENTACION -->
+	<div id="layer-presentation-contenedor" class="layer-presentation"></div>
+	
+	<!-- CONTENEDOR DE PARTICLE JS -->
+	<div id="particles-js"></div>
+	
+	<!-- NAVEGADOR DE TABLET -->
+	<nav class="main-header-tablet">
+		<ul>
+			<li>
+				<a href="#" data-btn-scrolltop="home">
+					<i class="fa fa-address-card-o"></i> 
+				</a>
+			</li>
+			<li>
+				<a href="#" data-btn-scrolltop="developer">
+					<i class="fa fa-code"></i> 
+				</a>
+			</li>
+			<li>
+				<a href="#" data-btn-scrolltop="ux">
+					<i class="fa fa-newspaper-o"></i> 
+				</a>
+			</li>
+			<li>
+				<a href="#" data-btn-scrolltop="ui">
+					<i class="fa fa-dashboard"></i> 
+				</a>
+			</li>
+			<li>
+				<a href="#" data-btn-scrolltop="contact">
+					<i class="fa fa-envelope-o"></i> 
+				</a>
+			</li>
+			<li>
+				<a href="gallery.html" target="_blank">
+					<i class="fa fa-folder-open-o"></i> 
+				</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<!-- CONTENEDOR PRINCIPAL -->
+	<div id="main-wrapper">
+		
+		<nav class="main-header">
+			<ul>
+				<li>
+					<a href="" data-pospage="0" data-linkbtn="bio" data-icon="fa-address-card-o" class="is--select">
+						<i class="fa fa-address-card-o"></i> 
+					</a>
+				</li>
+				<li>
+					<a href="" data-pospage="1" data-linkbtn="desarrollador" data-icon="fa-code">
+						<i class="fa fa-code"></i> 
+					</a>
+				</li>
+				<li>
+					<a href="" data-pospage="2" data-linkbtn="ux tareas" data-icon="fa-newspaper-o">
+						<i class="fa fa-newspaper-o"></i> 
+					</a>
+				</li>
+				<li>
+					<a href="" data-pospage="3" data-linkbtn="ui tareas" data-icon="fa-bar-chart">
+						<i class="fa fa-dashboard"></i> 
+					</a>
+				</li>
+				<li>
+					<a href="" data-pospage="4" data-linkbtn="contacto" data-icon="fa-envelope-o">
+						<i class="fa fa-envelope-o"></i> 
+					</a>
+				</li>
+				<li>
+					<a href="gallery.html" target="_blank" data-linkbtn="Galeria">
+						<i class="fa fa-folder-open-o"></i> 
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- BIO SECTION PORTRAIT -->
+		<div class="portrait-wrapper" id="id_portrait-wrapper"></div>
+
+		<div class="content-wrapper">
+			<!-- TITLE DINAMIC MAIN -->
+			<div class="content-wrapper__wrap-title-change">
+				<h3 class="content-wrapper__wrap-title-change__title" id="id-comp-title-dinamic">
+					<i class="content-wrapper__wrap-title-change__title__icon fa fa-address-card-o"></i>
+					<span class="content-wrapper__wrap-title-change__title__txt">Bio</span>
+					<span class="content-wrapper__wrap-title-change__title__layer"></span>
+				</h3>
+			</div>
+
+			<div class="content-wrapper__body">
+				<div class="content-wrapper__body__wrapper-layer">
+					<!-- CONTENT BIO -->
+					<div class="content-wrapper__body__wrapper-layer__layer content-home" id="id_content-home">
+					</div>
+					<!-- CONTENT DEVELOPER -->
+					<div class="content-wrapper__body__wrapper-layer__layer content-developer" id="id_content-developer">
+					</div>
+					<!-- CONTENT UX -->
+					<div class="content-wrapper__body__wrapper-layer__layer content-files" id="id_content-files">
+					</div>
+					<!-- CONTENT UI -->
+					<div class="content-wrapper__body__wrapper-layer__layer content-ux" id="id_content-ui">
+					</div>
+					<!-- CONTENT GALLERY -->
+					<div class="content-wrapper__body__wrapper-layer__layer content-gallery" >
+						<div class="content-files__body" id="id_content-gallery">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- TOOLTIP -->
+	<div class="main-header__tooltip"></div>
+
+	<!-- MENU NAV MOBILE -->
+	<nav class="c-nav-mobile">
+		<div class="c-nav-mobile__wrap-btns">
+			<a href="#" class="c-nav-mobile__btn-mobile" data-btn-navmobile="">
+				<i class="fa fa-bars"></i> <i class="fa fa-close"></i>
+			</a>
+		</div>
+		<ul>
+			<li>
+				<a href="#" data-btn-scrolltop="home" data-btn-navmobile="">
+					<span><i class="fa fa-address-card-o"></i></span> Bio
+				</a>
+			</li>
+			<li>
+				<a href="#" data-btn-scrolltop="developer" data-btn-navmobile="">
+					<span><i class="fa fa-code"></i></span> Desarrollador
+				</a>
+			</li>
+			<li>
+				<a href="#" data-btn-scrolltop="ux" data-btn-navmobile="">
+					<span><i class="fa fa-newspaper-o"></i></span> UX Tareas
+				</a>
+			</li>
+			<li>
+				<a href="#" data-btn-scrolltop="ui" data-btn-navmobile="">
+					<span><i class="fa fa-dashboard"></i></span> UI Tareas
+				</a>
+			</li>
+			<li>
+				<a href="#" data-btn-scrolltop="contact" data-btn-navmobile="">
+					<span><i class="fa fa-envelope-o"></i></span> Contacto
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank">
+					<i class="fa fa-folder-open-o"></i> 
+				</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<script type="text/javascript" data-main="js/app-portfolio.js" src="js/libs/require/require.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+	"list": [
+		{
+			"name": "Metal Gear Solid",
+			"webtype": "Fan Page",
+			"thematic": "Videojuegos PS3",
+			"cms": "WordPress",
+			"front": ["HTML5", "CSS3", "Jvascript"],
+			"frameworks": ["jQuery","Bootstrap","SliderJS"],
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"name": "Pagina Adaptada a Movil",
+			"webtype": "Tecnologias Web",
+			"thematic": "Paginas Web Responsive",
+			"cms": "WordPress",
+			"front": ["HTML5", "CSS3", "Jvascript"],
+			"frameworks": ["jQuery","Bootstrap","SdrJS"],
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"name": "Diseño de Interiores y Reformas",
+			"webtype": "Web Empresa",
+			"thematic": "Empresas construcción y reformas",
+			"cms": "WordPress",
+			"front": ["HTML5", "CSS3", "Jvascript"],
+			"frameworks": ["jQuery","Bootstrap","SdrJS"],
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"name": "Inmo Levante",
+			"webtype": "Web Empresa",
+			"thematic": "Empresas Inmobiliaria",
+			"cms": "Code Igniter",
+			"front": ["HTML5", "CSS3", "Jvascript","PHP","Api Slim"],
+			"frameworks": ["jQuery","Bootstrap","SdrJS"],
+			"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		}
+	]
+}

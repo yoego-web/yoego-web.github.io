@@ -1,0 +1,126 @@
+{
+	"pages": {
+		"0": {
+			"name": "Metal Gear Fan Page",
+			"webtype": "Fan Page, Info Tema",
+			"cms": "Wordpress",
+			"thematic": "Videojuegos PlayStation",
+			"tech": "HTML5, CSS3 Responsive Web Design, Javascript, PHP",
+			"frameworks": "jQuery, Bootstrap, Fontawesome",
+			"url": "metal-gear.html",
+			"image": "img/print-mgs.png",
+			"description": "Theme Wordpress, Pagina hecha en Jquery con efectos, diseño Parallax y efecto scrollspy que detecta la posición del scroll para revelar el contenido, aplicando efctos 3D en css."
+		},
+		"1": {
+			"name": "Mobile Page Responsive",
+			"webtype": "Tecnologias Web Css3",
+			"cms": "HTML5",
+			"thematic": "Tecnologias Web Css3 Responsive Media Queries",
+			"tech": "HTML5, CSS3 - Media Queries, jQuery - Javascript Responsive, Stylus, Sass",
+			"frameworks": "Css3 Media Queries, Jquery, ResponseJS, Scrollspy",
+			"url": "page-responsive-mobile.html",
+			"image": "img/print-html5-css3.png",
+			"description": "Desarrollada con tecnologías Front, efecto de diapositivas ( sliders ) a pantalla completa divida en 5 secciones, detecta el dispositivo para adaptar sus dimensiones (resize), se redimensiona con media queries tanto en css3 con javascript."
+		},
+		"2": {
+			"name": "App de Apuestas | AngularJS",
+			"webtype": "Frameworks SPA Javascript, AngularJS",
+			"cms": "Xampp",
+			"thematic": "Pagina de Apuestas",
+			"tech": "HTML5, CSS3, Javascript, Javascript Responsive",
+			"frameworks": "AngularJS 1.2",
+			"url": "https://chejox.neocities.org",
+			"image": "img/print-app-apuestas.png",
+			"description": "App Single Page Aplication hecha en AngulaJS, simulación o demo de una pagian de apuestas deportivas del mundial del 2014."
+		},
+		"3": {
+			"name": "App Juego Memory Game",
+			"webtype": "Tecnologias Web",
+			"cms": "Xampp",
+			"thematic": "Juegos Web",
+			"tech": "Javascript, jQuery, CSS3",
+			"frameworks": "jQuery",
+			"url": "memory-game.html",
+			"image": "img/print-memory-game.png",
+			"description": "APP de Juego de cartas para entrenar la memoria, hecha en Javascript y jQuery."
+		},
+		"4": {
+			"name": "App Juego de Puzzle | Angular 5",
+			"webtype": "Tecnologias Web",
+			"cms": "Firestore Google",
+			"thematic": "Videojuegos PS3",
+			"tech": "Javascript, Angular 5, Javascript Responsive, Stylus, Sass",
+			"frameworks": "Angular 5",
+			"url": "https://swipe-puzzle.firebaseapp.com",
+			"image": "img/print-puzzle.png",
+			"description": "App de juego de puzzle hecha en Angular 5, hecha para dispositivos moviles con pantalla tactil."
+		},
+		"5": {
+			"name": "Pagina de Ebanisteria",
+			"webtype": "Corporativa, Empresarial",
+			"cms": "Wordpress",
+			"thematic": "Servicios de obra - Ebanisteria",
+			"tech": "Wordpress, Javascript, CSS3, Stylus, Sass",
+			"frameworks": "Bootstrap, jQuery",
+			"url": "web-reformas.html",
+			"image": "img/print-ebanisteria.png",
+			"description": "Desarrollo de Theme Wordpress, pagina de Ebanisteria con efecto Parallax."
+		},
+		"6": {
+			"name": "Renovación de Interiores, Carlos Martin S.A.",
+			"webtype": "Corporativa, Empresarial",
+			"cms": "Wordpress",
+			"thematic": "Reformas, diseño de interiores",
+			"tech": "PHP, SQL, Wordpress, jQuery, Javascript Responsive, CSS3, Stylus, Sass",
+			"frameworks": "Wordpress, Bootstrap, jQuery",
+			"url": "http://carlosmartin-renovacion-de-interiores.es",
+			"image": "img/print-hyq-reformas.png",
+			"description": "Desarrollo de Theme Wordpress con Custom Post Types personalizadas, pagina de obras de interiores, hecha con efectos de imagenes superpuestas como presentación de la empresa, con galeria de sus obras personalizada."
+		},
+		"7": {
+			"name": "Tienda Online Vinareli",
+			"webtype": "Tienda Online",
+			"cms": "Wordpress, Woocommerce",
+			"thematic": "Tienda de Online de Vinos",
+			"tech": "PHP Sql, Javascript, CSS3, Stylus, Javascript Responsive, Sass",
+			"frameworks": "Woocommerce, jQuery, Storefront",
+			"url": "http://vinareli.com",
+			"image": "img/vinareli-thumb.jpg",
+			"description": "Desarrollo de Tienda Online con Woocommerce personalizada con mas de 60 productos con blog incluida ( Desarollo de Theme Wordpress ) interno y Custom Post Types personalizada"
+		},
+		"8": {
+			"name": "Clinica Peron",
+			"webtype": "Corporativa, Empresarial",
+			"cms": "Wordpress",
+			"thematic": "Servicios de Fisioterapia y sanitaria",
+			"tech": "Wordpress, Javascript, Javascript Responsive",
+			"frameworks": "jQuery, Bootstrap",
+			"url": "http://clinicaperon.es",
+			"image": "img/clinica-peron-thumb.png",
+			"description": "En Desarrollo Theme Wordpress, con Custom post type personalizadas con blog incluida con sistema de subdominios para el multidioma se le implemantara plugins como chtabox y un sitema de citas online."
+		},
+		"9": {
+			"name": "Inmobiliaria Inmolevate",
+			"webtype": "Corporativa, Empresarial",
+			"cms": "Codeigniter",
+			"thematic": "Inmobiliarias, Real state",
+			"tech": "PHP SQL, Javascript, CSS3",
+			"frameworks": "jQuery, BackboneJS, Bootstrap",
+			"url": "http://inmo-levante.hol.es",
+			"image": "img/print-inmobiliaria.png",
+			"description": "Hecha con Codeigniter (PHP), desarrollada con un sistema de BD de inmuebles con SQL y MySql para peticiones de datos ( API REST ), con un sistema de filtrado de datos en la parte forn  hecho jQuery y BackboneJS."
+		},
+		"10": {
+			"name": "Galerias a medida",
+			"webtype": "Corporativa, Empresarial",
+			"cms": "Wordpress",
+			"thematic": "Templates Tienda de Muestra de tipos de Producto",
+			"tech": "Javascript, CSS3",
+			"frameworks": "jQuery, Bootstrap",
+			"url": "galerias-a-medida.html",
+			"image": "img/print-galerias.png",
+			"description": "Theme Wordpress, simulación de diversos productos a modo de galeria mostrando un información tecnica del producto en forma dinamica."
+		}
+	}
+
+}

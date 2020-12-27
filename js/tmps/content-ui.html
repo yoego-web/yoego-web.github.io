@@ -1,0 +1,234 @@
+<div class="content-files__body">
+	<div class="content-wrapper__wrap-title" id="id-content-ui">
+		<h3 class="content-wrapper__wrap-title__title">
+			<i class="content-wrapper__wrap-title__title__icon fa fa-address-card-o"></i>
+			<span class="content-wrapper__wrap-title__title__txt">UI Tareas</span>
+			<span class="content-wrapper__wrap-title__title__layer"></span>
+		</h3>
+	</div>
+	
+	<div class="c-tab" data-tab-theme="ui-theme">
+		<div class="c-tab__wrap-scroll-x">
+			<ul class="c-tab__wrap-tabs">
+				<li class="c-tab__tab is--select">
+					<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme" data-target-content="ui-1">css 3D</a>
+				</li>
+				<li class="c-tab__tab">
+					<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme" data-target-content="ui-2">Descripción de imagenes</a>
+				</li>
+			</ul>
+		</div>
+		<div class="c-tab__content is--select" data-tab-content="ui-1">
+			
+			<div class="c-tab c-tab--vertical" data-tab-theme="ui-theme-1">
+				<div class="c-tab__wrap-scroll-x">
+					<ul class="c-tab__wrap-tabs">
+						<li class="c-tab__tab is--select">
+							<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme-1" data-target-content="ui-1-0-content">Descripción</a>
+						</li>
+						<li class="c-tab__tab">
+							<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme-1" data-target-content="ui-1-1-content">Rotacion Y X Z</a>
+						</li>
+						<li class="c-tab__tab">
+							<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme-1" data-target-content="ui-1-2-content">Capa, Rotación de ejes</a>
+						</li>
+						<li class="c-tab__tab">
+							<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme-1" data-target-content="ui-1-3-content">Rotación de Perspectiva</a>
+						</li>
+					</ul>
+				</div>
+				<div class="c-tab__content is--select" data-tab-content="ui-1-0-content">
+					<div class="wrapper-flex wrapper-flex--column wrapper-flex--pdg">
+						<h3 class="title-second title--no-mrg-top">Css 3D aplicado en aplicaciones</h3>
+						<p class="font-content font--no-mrg-top">Css3 en 3D actualmente en 2018 en Chrome, Safari y Opera en las ultimas versiones son compatibles aplicandole los 
+							atributos para conseguir este efecto tridimensional, el atributo principal es 'transform' al cual se le puede aplicar los atributos <code>rotate, rotateY, rotateX, rotateZ</code> para que dicho efecto funcione tenemos que saber donde aplicar el atributo <code>perspective</code> siempre al padre envolvente de el/los elementos/capas a aplicar el efecto 3d, lo aplicaremos en los sgtes ejemplos:  </p>
+						<ul class="list-simple">
+							<li class="list-simple__item">Rotación Y X Z : en este ejemplo moveremos/manipularemos via "sliders" un cubo en los puntos cardinales tridimensionales, asi veremos como la orientacion, dirección en el que se mueve cada punto.</li>
+							<li class="list-simple__item">Capa Rotación de ejes : en este ejemplo escogeremos una capa/elemento a manipular seguidamente escogeremos un eje X Y Z, para luego manipular una capa individualmente.</li>
+							<li class="list-simple__item">Rotación de Perspectiva : esta definición se puede traducir como eje de perspectiva, punto de referencia el cual nuestro elemento se movera segun los cardinales como eje escogido; ejemplo 50% 50% (X Y).  </li>
+						</ul>
+					</div>
+				</div>
+				<div class="c-tab__content" data-tab-content="ui-1-1-content">
+					
+					<div class="wrapper-change-range">
+						<div class="wrap slider-x">
+							<input type="range" class="c-inpt-slider" id="range-x" min="0" max="360" step="36" value="0">
+							<label class="legend">
+								<span class="key">X :</span> <span class="val">0</span>
+							</label>
+						</div>
+						<div class="wrap slider-y">
+							<input type="range" class="c-inpt-slider" id="range-y" min="0" max="360" step="36" value="0">
+							<label class="legend">
+								<span class="key">Y :</span> <span class="val">0</span>
+							</label>
+						</div>
+						<div class="wrap slider-z">
+							<input type="range" class="c-inpt-slider" id="range-z" min="0" max="360" step="36" value="0">
+							<label class="legend">
+								<span class="key">Z :</span> <span class="val">0</span>
+							</label>
+						</div>
+
+						<div class="stage" data-target-cube-3d>
+							<div class="stage_cube" id="change_rotate">
+								<div class="stage_cube--cubetop"></div>
+								<div class="stage_cube--cuberight"></div>
+								<div class="stage_cube--cubebottom"></div>
+								<div class="stage_cube--cubeleft"></div>
+								<div class="stage_cube--cubefront"></div>
+								<div class="stage_cube--cubeback"></div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="c-tab__content" data-tab-content="ui-1-2-content">
+					
+					<div class="btnchoices" data-target="cube_layers">
+						
+						<div class="btnchoices_wrapper_modifylayer">
+							<select name="layer" id="">
+								<option value="" selected="selected">Elija color capa :</option>
+								<option value="--cubetop">Capa Purpura</option>
+								<option value="--cuberight">Capa Naranja</option>
+								<option value="--cubebottom">Capa Red</option>
+								<option value="--cubeleft">Capa Verde</option>
+							</select>
+							<select name="transform" id="">
+								<option value="" selected="selected">Elija eje :</option>
+								<option value="ry">rotateY</option>
+								<option value="rx">rotateX</option>
+								<option value="tz">translateZ</option>
+							</select>
+						</div>
+						<div class="btnchoices_wrapper_plusminus">
+							<span class="plus btn-choice btn-choice--big">+</span>
+							<span class="minus btn-choice btn-choice--big">-</span>
+						</div>
+					</div>
+
+					<div class="stage" id="cube_layers">
+						<div class="stage_cube">
+							<div class="stage_cube--cubetop" data-rotate="80"></div>
+							<div class="stage_cube--cuberight" data-rotate="105"></div>
+							<div class="stage_cube--cubebottom" data-rotate="95"></div>
+							<div class="stage_cube--cubeleft" data-rotate="75"></div>
+							<div class="stage_cube--cubefront"></div>
+							<div class="stage_cube--cubeback"></div>
+						</div>
+					</div>
+
+				</div>
+				<div class="c-tab__content" data-tab-content="ui-1-3-content">
+
+					<div class="wrapper-flex">
+						<div class="btnchoices" id="trigger_play_origin">
+							<ul class="btnchoices_wrapper">
+								<li>
+									<span data-origin="90% 50%" class="btnchoices_btn  btn-choice is--select">90% 50%</span> 
+								</li>
+								<li>
+									<span data-origin="50% 90%" class="btnchoices_btn btn-choice">50% 90%</span> 
+								</li>
+								<li>
+									<span data-origin="40% 30%" class="btnchoices_btn btn-choice">40% 30%</span> 
+								</li>
+								<li>
+									<span data-origin="50% 50%" class="btnchoices_btn btn-choice">50% 50%</span> 
+								</li>
+							</ul>
+						</div>
+
+						<div class="stage" id="cube_play_origin">
+							<div class="stage_cube" id="cube_perspective">
+								<div class="stage_cube--cubetop"></div>
+								<div class="stage_cube--cuberight"></div>
+								<div class="stage_cube--cubebottom"></div>
+								<div class="stage_cube--cubeleft"></div>
+								<div class="stage_cube--cubefront"></div>
+								<div class="stage_cube--cubeback"></div>
+							</div>
+						</div>												
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="c-tab__content" data-tab-content="ui-2">
+
+			<div class="c-tab c-tab--vertical" data-tab-theme="ui-theme-2">
+				<ul class="c-tab__wrap-tabs">
+					<li class="c-tab__tab is--select">
+						<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme-2" data-target-content="ui-2-1-content">Efecto Slider</a>
+					</li>
+					<li class="c-tab__tab">
+						<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme-2" data-target-content="ui-2-2-content">Efecto 3D Flip</a>
+					</li>
+					<li class="c-tab__tab">
+						<a href="#" class="c-tab__tab-btn" data-tab-target-theme="ui-theme-2" data-target-content="ui-3-3-content">Efecto Slider Social</a>
+					</li>
+				</ul>
+				<div class="c-tab__content is--select" data-tab-content="ui-2-1-content">
+					<div class="c-picture-media">
+						<img src="img/print-hyq-reformas.png" class="c-picture-media__img">
+						<div class="c-picture-media__desc">
+							<p class="font-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nesciunt, aspernatur ad unde consequatur rerum impedit, eaque, a ea mollitia voluptatum provident.</p>
+						</div>
+						<span data-picture-media-btn data-picture-media-show-mode="" class="c-picture-media__btn-back">Volver</span>
+						<span data-picture-media-btn data-picture-media-show-mode="" class="c-picture-media__btn-mas">+ Info</span>
+					</div>
+				</div>
+				<div class="c-tab__content c-tab__content__with-perspective" data-tab-content="ui-2-2-content">
+					<div class="c-picture-media c-picture-media__wrap-flip">
+						<img class="c-picture-media__img-flip" src="img/print-html5-css3.png">
+						<div class="c-picture-media__desc-flip">
+							<p class="font-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nesciunt, aspernatur ad unde consequatur rerum impedit, eaque, a ea mollitia voluptatum provident.</p>
+						</div>
+						<span data-picture-media-btn data-picture-media-show-mode="flip" class="c-picture-media__btn-back">Volver</span>
+						<span data-picture-media-btn data-picture-media-show-mode="flip" class="c-picture-media__btn-mas">+ Info</span>
+					</div>
+				</div>
+				<div class="c-tab__content" data-tab-content="ui-3-3-content">
+					<div class="c-picture-media">
+						<img src="img/print-mgs.png" class="c-picture-media__img">
+
+						<div class="c-picture-media__social-box c-picture-media__social-box__youtube">
+							<p class="font-content"> <i class="fa fa-youtube-square"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nesciunt, aspernatur ad unde consequatur rerum impedit, eaque, a ea mollitia voluptatum provident.</p>
+							<span class="c-picture-media__btn-social" data-picture-media-btn="" data-picture-media-social="youtube" data-picture-media-show-mode="social">
+								<i class="fa fa-youtube"></i>
+								<i class="fa fa-close"></i>
+							</span>
+						</div>
+						<div class="c-picture-media__social-box c-picture-media__social-box__facebook">
+							<p class="font-content"> <i class="fa fa-facebook-square"></i>acebook ipsum dolor sit amet, consectetur adipisicing elit. Dolor nesciunt, aspernatur ad unde consequatur rerum impedit, eaque, a ea mollitia voluptatum provident.</p>
+							<span class="c-picture-media__btn-social" data-picture-media-btn="" data-picture-media-social="facebook" data-picture-media-show-mode="social">
+								<i class="fa fa-facebook"></i>
+								<i class="fa fa-close"></i>
+							</span>
+						</div>
+						<div class="c-picture-media__social-box c-picture-media__social-box__tumblr">
+							<p class="font-content"> <i class="fa fa-tumblr-square"></i>umblr ipsum dolor sit amet, consectetur adipisicing elit. Dolor nesciunt, aspernatur ad unde consequatur rerum impedit, eaque, a ea mollitia voluptatum provident.</p>
+							<span class="c-picture-media__btn-social" data-picture-media-btn="" data-picture-media-social="tumblr" data-picture-media-show-mode="social">
+								<i class="fa fa-tumblr"></i>
+								<i class="fa fa-close"></i>
+							</span>
+						</div>
+						<div class="c-picture-media__social-box c-picture-media__social-box__twitter">
+							<p class="font-content"> <i class="fa fa-twitter-square"></i>witter ipsum dolor sit amet, consectetur adipisicing elit. Dolor nesciunt, aspernatur ad unde consequatur rerum impedit, eaque, a ea mollitia voluptatum provident.</p>
+							<span class="c-picture-media__btn-social" data-picture-media-btn="" data-picture-media-social="twitter" data-picture-media-show-mode="social">
+								<i class="fa fa-twitter"></i>
+								<i class="fa fa-close"></i>
+							</span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</div>

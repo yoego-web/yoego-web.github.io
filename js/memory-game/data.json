@@ -1,0 +1,26 @@
+[
+	{"idx": 0, "val":"a", "state":null}
+	,{"idx": 1, "val":"a", "state":null}
+	,{"idx": 2, "val":"b", "state":null}
+	,{"idx": 3, "val":"b", "state":null}
+	,{"idx": 4, "val":"c", "state":null}
+	,{"idx": 5, "val":"c", "state":null}
+	,{"idx": 6, "val":"d", "state":null}
+	,{"idx": 7, "val":"d", "state":null}
+	,{"idx": 8, "val":"e", "state":null}
+	,{"idx": 9, "val":"e", "state":null}
+	,{"idx": 10, "val":"f", "state":null}
+	,{"idx": 11, "val":"f", "state":null}
+	,{"idx": 12, "val":"g", "state":null}
+	,{"idx": 13, "val":"g", "state":null}
+	,{"idx": 14, "val":"h", "state":null}
+	,{"idx": 15, "val":"h", "state":null}
+	,{"idx": 16, "val":"i", "state":null}
+	,{"idx": 17, "val":"i", "state":null}
+	,{"idx": 18, "val":"j", "state":null}
+	,{"idx": 19, "val":"j", "state":null}
+	,{"idx": 20, "val":"k", "state":null}
+	,{"idx": 21, "val":"k", "state":null}
+	,{"idx": 22, "val":"l", "state":null}
+	,{"idx": 23, "val":"l", "state":null}
+]

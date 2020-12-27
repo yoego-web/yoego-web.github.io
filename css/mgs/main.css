@@ -1,0 +1,1066 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+template,
+[hidden] {
+  display: none;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+optgroup {
+  font-weight: bold;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+h1 {
+  font-weight: normal;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+main {
+  position: relative;
+  background-color: #fff;
+  z-index: 2;
+  margin-bottom: 210px;
+  overflow: hidden;
+}
+.title {
+  margin: 1.5em 0 0.8em;
+  text-align: center;
+  font-family: 'Marvel';
+}
+.text-content {
+  text-align: center;
+  font-family: 'Marvel';
+  font-size: 1.2em;
+  margin: 0 10%;
+}
+.page-item {
+  position: relative;
+  z-index: 2;
+  padding: 50px 0 80px 0;
+}
+header {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  z-index: 2;
+}
+header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+}
+.wrapper-content-header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.wrapper-content-header.charged .title-logo {
+  color: #fff;
+}
+.wrapper-content-header.charged .wrap-solid-snake {
+  transform: scale(1.2);
+  z-index: 4;
+}
+.title-logo {
+  position: absolute;
+  top: calc(30% - 42px);
+  left: 5%;
+  width: 90%;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 8em;
+  color: transparent;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000;
+  transform: scale(1.2);
+  transition: 1.2s linear;
+  z-index: 3;
+}
+.wrap-solid-snake {
+  position: absolute;
+  width: 250px;
+  left: -100px;
+  bottom: 0;
+  z-index: 2;
+  transition: 2s 1s linear;
+}
+.wrap-solid-snake img {
+  width: 100%;
+}
+.leaf {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-image: url("../../img/mgs/leaf2.png");
+  background-size: cover;
+}
+.wrapper-leaf {
+  perspective: 500px;
+  position: absolute;
+  width: 95%;
+  height: 60px;
+}
+.wrapper-leaf:nth-child(1) {
+  left: 5%;
+  top: 10%;
+}
+.wrapper-leaf:nth-child(2) {
+  left: 1%;
+  top: 28%;
+}
+.wrapper-leaf:nth-child(3) {
+  left: 6%;
+  top: 46%;
+}
+.wrapper-leaf:nth-child(4) {
+  left: 2%;
+  top: 58%;
+}
+.wrapper-leaf .leaf:nth-child(1) {
+  left: 5%;
+  top: 5%;
+}
+.wrapper-leaf .leaf:nth-child(2) {
+  left: 15%;
+  top: 30%;
+}
+.wrapper-leaf .leaf:nth-child(3) {
+  left: 25%;
+  top: 20%;
+}
+.wrapper-leaf .leaf:nth-child(4) {
+  left: 35%;
+  top: 50%;
+}
+.wrapper-leaf .leaf:nth-child(5) {
+  left: 45%;
+  top: 60%;
+}
+.wrapper-leaf .leaf:nth-child(6) {
+  left: 55%;
+  bottom: 0;
+}
+.wrapper-leaf .leaf:nth-child(7) {
+  left: 65%;
+  top: 5%;
+}
+.wrapper-leaf .leaf:nth-child(8) {
+  left: 75%;
+  bottom: 5%;
+}
+.wrapper-leaf .leaf:nth-child(9) {
+  left: 85%;
+  bottom: 40%;
+}
+.wrapper-leaf .leaf:nth-child(10) {
+  left: 95%;
+  bottom: 20%;
+}
+.wrapper-leaf:nth-child(odd) .leaf:nth-child(odd) {
+  transform: rotateX(45deg) rotateZ(-21deg);
+}
+.wrapper-leaf:nth-child(odd) .leaf:nth-child(even) {
+  transform: rotateX(10deg) rotateZ(90deg);
+}
+.wrapper-leaf:nth-child(even) .leaf:nth-child(odd) {
+  transform: rotateX(150deg) rotateZ(90deg);
+}
+.wrapper-leaf:nth-child(even) .leaf:nth-child(even) {
+  transform: rotateX(120deg) rotateZ(50deg);
+}
+@media (max-width: 767px) {
+  header {
+    background-image: url("../../img/mgs/mgs3-back-portrait.png");
+  }
+  .wrap-solid-snake img {
+    transform: scaleX(-1);
+  }
+}
+@media (orientation: portrait) {
+  header {
+    background-image: url("../../img/mgs/mgs3-back-portrait.png");
+  }
+}
+@media (orientation: landscape) {
+  header {
+    background-image: url("../../img/mgs/mgs3-back.jpg");
+  }
+}
+@media (min-width: 768px) {
+  .title-logo {
+    font-size: 10em;
+    transform: scale(1.5);
+    left: 20%;
+    width: 60%;
+  }
+  .wrap-solid-snake {
+    width: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    background-image: url("../../img/mgs/mgs3-back.jpg");
+    background-position: center right;
+  }
+  .title-logo {
+    transform: scale(1.8);
+    width: 100%;
+    left: 0;
+  }
+  .wrap-solid-snake {
+    width: 400px;
+    left: 5%;
+  }
+}
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+}
+nav.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+nav .logo {
+  width: 34px;
+  height: 40px;
+  margin: 0 0 0 0.6em;
+  font-size: 2em;
+  color: #fff;
+  line-height: 40px;
+  font-family: 'Six Caps', sans-serif;
+  text-transform: uppercase;
+}
+nav ul {
+  margin-right: 0;
+}
+nav ul li {
+  height: 40px;
+  display: none;
+  color: #fff;
+  margin: 0 0.5em;
+}
+nav ul li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:last-child {
+  display: inline-block;
+}
+nav .switch-menu-mobile {
+  font-weight: bold;
+  padding: 0 1.5em;
+}
+nav .switch-menu-mobile:before {
+  content: '\2261';
+  display: inline-block;
+  transform: scale(1.8);
+}
+nav .switch-menu-mobile:hover {
+  background-color: #fff;
+}
+nav .switch-menu-mobile:hover:before {
+  color: #000;
+}
+@media (min-width: 750px) {
+  nav ul {
+    margin-right: 2em;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+}
+#nav-mobile {
+  position: fixed;
+  z-index: 8;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-image: url("../../img/mgs/back3-mgs3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-101%);
+  transition: 0.8s linear;
+}
+#nav-mobile .nav-mobile-layer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+#nav-mobile .switch-menu-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 8%;
+  top: 8%;
+  font-family: 'Marvel';
+  font-size: 2.8em;
+  z-index: 9;
+}
+#nav-mobile .six:first-child {
+  float: none;
+  margin: 0 auto;
+}
+#nav-mobile .six:first-child p {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 1.4em;
+  letter-spacing: 10px;
+  margin: 0;
+  text-align: center;
+}
+#nav-mobile .six:first-child ul li {
+  border-bottom: 1px solid #fff;
+  box-sizing: border-box;
+  width: 200px;
+  padding: 0;
+  margin: 0 auto;
+}
+#nav-mobile .six:first-child ul li a {
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 0.2em 0;
+  text-transform: uppercase;
+  font-family: 'Marvel';
+}
+#nav-mobile .six:first-child ul li a::first-letter {
+  margin-left: 0.4em;
+}
+#nav-mobile .six:first-child ul li a:hover,
+#nav-mobile .six:first-child ul li a:focus,
+#nav-mobile .six:first-child ul li a:active {
+  color: #fff;
+  text-decoration: none;
+}
+#nav-mobile .six:first-child ul li a:hover {
+  color: #000;
+  background-color: #fff;
+}
+#nav-mobile .six:first-child ul li:hover {
+  border-bottom: none;
+}
+#nav-mobile .six:last-child {
+  display: none;
+  position: relative;
+  text-align: center;
+}
+#nav-mobile .six:last-child:after,
+#nav-mobile .six:last-child:before {
+  content: "";
+  display: inline-block;
+  width: 10%;
+  height: 86%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  top: 7%;
+}
+#nav-mobile .six:last-child:after {
+  left: 0;
+  border-left: 1px solid #fff;
+}
+#nav-mobile .six:last-child:before {
+  right: 0;
+  border-right: 1px solid #fff;
+}
+#nav-mobile .six:last-child h5 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 1.8em;
+  letter-spacing: 5px;
+}
+#nav-mobile .six:last-child p {
+  padding: 0 0.5em;
+  font-family: 'Marvel';
+  font-size: 1.2em;
+  padding: 1em 0.5em;
+}
+#nav-mobile .six:last-child .button {
+  color: #fff;
+}
+#nav-mobile .six:last-child .button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.open-nav-mobile #nav-mobile {
+  transform: translateY(0);
+}
+@media (orientation: portrait) {
+  #nav-mobile {
+    background-position: center center;
+  }
+}
+@media (min-width: 750px) {
+  #nav-mobile .six:first-child {
+    float: left;
+    margin: 0;
+  }
+  #nav-mobile .six:first-child p {
+    font-size: 2em;
+  }
+  #nav-mobile .six:first-child ul li a {
+    font-size: 1.2em;
+    padding: 0.8em 0;
+  }
+  #nav-mobile .six:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  #nav-mobile .container {
+    width: 90%;
+  }
+  #nav-mobile .six:last-child {
+    margin-left: 0;
+  }
+}
+.wrap-picture {
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+  margin: 1.2em 0;
+}
+.wrap-picture img {
+  width: 250px;
+  margin: 0 auto;
+  display: block;
+  transform: translateY(100%) scale(1);
+  transition: 0.5s linear;
+}
+.wrap-picture .wrap-picture-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-101%);
+  transition: 0.4s linear;
+}
+.wrap-picture .wrap-picture-layer h5 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+.wrap-picture .wrap-picture-readmore {
+  position: absolute;
+  width: 50%;
+  background-color: #000;
+  line-height: 20px;
+  border-radius: 0 10px 10px 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.wrap-picture .wrap-picture-readmore:hover {
+  letter-spacing: 4px;
+}
+.wrap-picture .wrap-picture-readmore:hover span {
+  letter-spacing: 0;
+}
+.wrap-picture .wrap-picture-readmore span {
+  box-sizing: border-box;
+  float: right;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-size: bold;
+  line-height: 17px;
+  color: #000;
+  font-size: 1.2em;
+  transition: 0.3s linear;
+}
+.wrap-picture .wrap-picture-readmore span:before {
+  content: "+";
+  display: inline-block;
+}
+.wrap-picture .wrap-picture-readmore span:after {
+  content: "-";
+  display: none;
+}
+.wrap-picture.wrap-picture--select .wrap-picture-layer {
+  transform: translateX(0);
+}
+.wrap-picture.wrap-picture--select .wrap-picture-readmore {
+  border-radius: 10px 0 0 10px;
+  left: 50%;
+}
+.wrap-picture.wrap-picture--select .wrap-picture-readmore span {
+  float: left;
+}
+.wrap-picture.wrap-picture--select .wrap-picture-readmore span:before {
+  display: none;
+}
+.wrap-picture.wrap-picture--select .wrap-picture-readmore span:after {
+  display: inline-block;
+}
+#gallery.page-item--select .wrap-picture img {
+  transform: translateY(0);
+}
+#gallery.page-item--select .wrap-picture:hover img {
+  transform: translateY(0) scale(1.2);
+}
+@media (min-width: 550px) and (max-width: 767px) {
+  #gallery .container {
+    width: 100%;
+  }
+  #gallery .container .four.columns {
+    width: 49%;
+    margin-left: 0;
+    padding-left: 0.8em;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  #gallery .container {
+    width: 100%;
+    padding: 0 0.2em;
+  }
+  #gallery .container .four.columns {
+    margin-left: 0;
+    width: 33%;
+  }
+}
+#periscope .wrapper-periscope {
+  position: relative;
+  margin: 1em auto;
+  width: 100%;
+  height: 300px;
+  border: 1px solid #000;
+  background-image: url("../../img/mgs/mgs-rising.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+#periscope .wrapper-periscope:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid #fff;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  transition: 0.4s linear;
+}
+#periscope .wrapper-periscope .periscope-target {
+  width: 100%;
+  height: 100%;
+}
+#periscope .wrapper-periscope .periscope-target div {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  transition: 0.4s linear;
+}
+#periscope .wrapper-periscope .periscope-target div:nth-child(1),
+#periscope .wrapper-periscope .periscope-target div:nth-child(2) {
+  top: 0;
+  border-top: 1px solid #fff;
+}
+#periscope .wrapper-periscope .periscope-target div:nth-child(3),
+#periscope .wrapper-periscope .periscope-target div:nth-child(4) {
+  bottom: 0;
+  border-bottom: 1px solid #fff;
+}
+#periscope .wrapper-periscope .periscope-target div:nth-child(1),
+#periscope .wrapper-periscope .periscope-target div:nth-child(3) {
+  left: 0;
+}
+#periscope .wrapper-periscope .periscope-target div:nth-child(2),
+#periscope .wrapper-periscope .periscope-target div:nth-child(4) {
+  right: 0;
+}
+#periscope .wrapper-periscope .periscope-target div:nth-child(1),
+#periscope .wrapper-periscope .periscope-target div:nth-child(3) {
+  border-left: 1px solid #fff;
+}
+#periscope .wrapper-periscope .periscope-target div:nth-child(2),
+#periscope .wrapper-periscope .periscope-target div:nth-child(4) {
+  border-right: 1px solid #fff;
+}
+#periscope .wrapper-periscope .periscope-data {
+  margin: 0.5em;
+}
+#periscope.page-item--select .wrapper-periscope:after {
+  width: 40px;
+  height: 40px;
+}
+#periscope.page-item--select .periscope-target div:nth-child(1),
+#periscope.page-item--select .periscope-target div:nth-child(2) {
+  top: 8%;
+}
+#periscope.page-item--select .periscope-target div:nth-child(3),
+#periscope.page-item--select .periscope-target div:nth-child(4) {
+  bottom: 8%;
+}
+#periscope.page-item--select .periscope-target div:nth-child(1),
+#periscope.page-item--select .periscope-target div:nth-child(3) {
+  left: 8%;
+}
+#periscope.page-item--select .periscope-target div:nth-child(2),
+#periscope.page-item--select .periscope-target div:nth-child(4) {
+  right: 8%;
+}
+#periscope.page-item--select .periscope-data {
+  color: #fff;
+}
+@media (min-width: 400px) {
+  #periscope .wrapper-periscope {
+    width: 360px;
+    height: 220px;
+    background-size: initial;
+  }
+}
+@media (min-width: 768px) {
+  #periscope .wrapper-periscope {
+    width: 420px;
+    height: 320px;
+  }
+}
+#episodes {
+  padding-bottom: 120px;
+}
+#episodes .row {
+  overflow: hidden;
+}
+#episodes .wrap-gif,
+#episodes .wrap-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Marvel';
+  height: 180px;
+  margin: 1.5em 0;
+  transition: 0.5s linear;
+}
+#episodes .wrap-gif:first-child,
+#episodes .wrap-desc:first-child {
+  transform: translateX(-100%);
+}
+#episodes .wrap-gif:last-child,
+#episodes .wrap-desc:last-child {
+  transform: translateX(100%);
+}
+#episodes .wrap-gif img {
+  width: 300px;
+  height: 180px;
+}
+#episodes .wrap-desc {
+  text-align: center;
+}
+#episodes .wrap-desc h5 {
+  margin: 0;
+}
+#episodes .wrap-desc p {
+  width: 80%;
+}
+#episodes.page-item--select .wrap-gif:first-child,
+#episodes.page-item--select .wrap-desc:first-child,
+#episodes.page-item--select .wrap-gif:last-child,
+#episodes.page-item--select .wrap-desc:last-child {
+  transform: translateX(0);
+}
+@media (min-width: 550px) and (max-width: 768px) {
+  #episodes .container {
+    width: 100%;
+    padding: 0 0.2em;
+  }
+  #episodes .wrap-gif,
+  #episodes .wrap-desc {
+    margin-left: 0;
+  }
+  #episodes .wrap-gif {
+    width: 300px;
+  }
+  #episodes .wrap-desc {
+    width: calc(99% - 300px);
+  }
+  #episodes .wrap-desc p {
+    width: 100%;
+    padding: 0 0.4em;
+    box-sizing: border-box;
+  }
+}
+#gallery3d .wrap-gallery3d {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  perspective: 300px;
+  transform: rotateY(180deg);
+  transition: 0.6s linear;
+}
+#gallery3d .wrap-gallery3d .flip {
+  width: 300px;
+  height: 180px;
+  margin: 0.5em 0;
+  box-shadow: 2px 2px 5px #000;
+  position: relative;
+  font-family: 'Marvel';
+  cursor: pointer;
+  transition: 0.6s linear;
+}
+#gallery3d .wrap-gallery3d .flip:before {
+  content: "+";
+  display: inline-block;
+  position: absolute;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 0 0 0 50%;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  right: 0;
+  line-height: 40px;
+  font-size: 2em;
+  text-align: center;
+  z-index: 1;
+}
+#gallery3d .wrap-gallery3d .flip img,
+#gallery3d .wrap-gallery3d .flip span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+#gallery3d .wrap-gallery3d .flip span {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  padding: 20px 10px;
+  transform: rotateY(180deg);
+  transition: 0.6s 0.2s linear;
+}
+#gallery3d .wrap-gallery3d .flip span:before {
+  content: "-";
+  display: inline-block;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50% 0 0 0;
+  color: #000;
+  width: 40px;
+  height: 40px;
+  bottom: 0;
+  right: 0;
+  line-height: 40px;
+  font-size: 2em;
+  text-align: center;
+  z-index: 1;
+}
+#gallery3d .wrap-gallery3d .flip.flip-turned {
+  transform: rotateY(180deg);
+}
+#gallery3d .wrap-gallery3d .flip.flip-turned:before {
+  z-index: 0;
+}
+#gallery3d .wrap-gallery3d .flip.flip-turned span {
+  opacity: 1;
+}
+#gallery3d.page-item--select .wrap-gallery3d {
+  transform: rotateY(0);
+}
+@media (min-width: 640px) {
+  #gallery3d .wrap-gallery3d .flip:last-child {
+    margin-left: 1em;
+  }
+}
+footer {
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  color: #fff;
+  z-index: 1;
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+footer.charged {
+  display: block;
+}
+footer .footer-title,
+footer .footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 200px;
+}
+footer .footer-item {
+  font-size: 0.8em;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Marvel';
+}
+footer .footer-title p {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 2em;
+  letter-spacing: 10px;
+  margin: 0;
+  text-align: center;
+}
+footer .logo-footer-wrap-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+  transition: 0.8s 0.8s linear;
+}
+footer .logo-footer-wrap-img img {
+  width: 100%;
+}
+@media (max-width: 650px) {
+  footer {
+    overflow-y: auto;
+  }
+  footer .four.columns {
+    width: 100%;
+  }
+}
+@media (min-width: 651px) and (max-width: 767px) {
+  footer {
+    overflow: hidden;
+    height: 200px;
+  }
+  footer .container {
+    width: 100%;
+    padding: 0;
+  }
+  footer .container .four.columns {
+    width: 33%;
+    margin-left: 0;
+  }
+}

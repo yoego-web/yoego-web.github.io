@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Page Mobile</title>
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/page-mobile/main.css">
+</head>
+<body>
+
+	<header>
+		<div class="toggle-menu">
+			<i class="fa fa-bars"></i>
+			<i class="fa fa-arrow-left"></i>
+		</div>
+		<ul>
+			<li>
+				<a data-page="0" data-page-rel="home" class="btn-nav-page btn-nav-page--select" href="#">
+					<i class="fa fa-html5"></i> <span>home</span>
+				</a>
+			</li>
+			<li>
+				<a data-page="20" data-page-rel="services" class="btn-nav-page" href="#">
+					<i class="fa fa-cogs"></i> <span>services</span>
+				</a>
+			</li>
+			<li>
+				<a data-page="40" data-page-rel="portfolio" class="btn-nav-page" href="#">
+					<i class="fa fa-briefcase"></i> <span>portfolio</span>
+				</a>
+			</li>
+			<li>
+				<a data-page="60" data-page-rel="clients" class="btn-nav-page" href="#">
+					<i class="fa fa-handshake-o"></i> <span>clients</span>
+				</a>
+			</li>
+			<li>
+				<a data-page="80" data-page-rel="contact" class="btn-nav-page" href="#">
+					<i class="fa fa-map-marker"></i> <span>contact</span>
+				</a>
+			</li>
+		</ul>
+	</header>
+
+	<main data-pages="5" data-current-page="0">
+		<section class="page-item" id="home"> 
+			<div class="wrap-content">
+				<h4>HOME</h4> 
+				<i class="fa fa-html5"></i> <i class="fa fa-css3"></i>
+			</div>
+		</section>
+		<section class="page-item" id="services">
+			<div class="wrap-content">
+				<i class="fa fa-cogs"></i>
+				<h4>SERVICES</h4>
+			</div>
+		</section>
+		<section class="page-item" id="portfolio">
+			<div class="wrap-content">
+				<p>PORTFOLIO</p>
+				<div class="briefcase-top mask">
+					<i class="fa fa-briefcase"></i>
+				</div>
+				<div class="briefcase-bottom mask">
+					<i class="fa fa-briefcase"></i>
+				</div>
+			</div>
+		</section>
+		<section class="page-item" id="clients">
+			<p>CLIENTS</p>
+			<div class="wrap-content">
+				<i class="fa fa-users"></i>
+				<i class="fa fa-handshake-o"></i>
+				<i class="fa fa-users"></i>
+			</div>
+		</section>
+		<section class="page-item" id="contact">
+			<p>CONTACTO</p>
+			<div class="wrap-content">
+				<i class="fa fa-map-o"></i>  <i class="fa fa-map-marker"></i>
+			</div>
+		</section>
+	</main>
+
+	<div class="wrap-btn-scroll">
+		<span> <i class="fa fa-chevron-up"></i> </span> 
+		<span class="plus"> <i class="fa fa-chevron-down"></i> </span>
+	</div>
+
+	<div id="nav-mobile">
+		<div class="logo-nav-mobile">
+			<i class="fa fa-grav"></i>
+		</div>
+		<ul>
+			<li>
+				<a data-page="0" data-page-rel="home" class="btn-nav-page btn-nav-page--select" href="#">
+					<i class="fa fa-html5"></i> <span>home</span>
+				</a>
+			</li>
+			<li>
+				<a data-page="20" data-page-rel="services" class="btn-nav-page" href="#">
+					<i class="fa fa-cogs"></i> <span>services</span>
+				</a>
+			</li>
+			<li>
+				<a data-page="40" data-page-rel="portfolio" class="btn-nav-page" href="#">
+					<i class="fa fa-briefcase"></i> <span>portfolio</span>
+				</a>
+			</li>
+			<li>
+				<a data-page="60" data-page-rel="clients" class="btn-nav-page" href="#">
+					<i class="fa fa-handshake-o"></i> <span>clients</span>
+				</a>
+			</li>
+			<li>
+				<a data-page="80" data-page-rel="contact" class="btn-nav-page" href="#">
+					<i class="fa fa-map-marker"></i> <span>contact</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="toggle-menu">
+					<i class="fa fa-arrow-left"></i> <span>back</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<footer>
+		<h3></h3>
+	</footer>
+
+	<script src="js/page-mobile/jquery.js"></script>
+	<script src="js/page-mobile/response.js"></script>
+	<script src="js/page-mobile/main.js"></script>
+
+</body>
+</html>

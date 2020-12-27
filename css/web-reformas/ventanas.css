@@ -1,0 +1,89 @@
+body {
+  transition: all 0.5s linear;
+  padding-bottom: 4rem;
+}
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+}
+#ventanas-container {
+  margin-top: 60px;
+}
+.list-group-item {
+  padding: 5px 10px;
+}
+.list-group-item p {
+  margin-bottom: 0;
+}
+.list-group-item p.prop {
+  font-weight: 600;
+}
+.thumbnail.ventana img {
+  max-width: 215px;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .thumbnail.ventana img {
+    max-width: 300px;
+  }
+}
+a[data-fn-set-item]:active,
+a[data-fn-set-item]:link,
+a[data-fn-set-item]:visited,
+a[data-fn-set-item]:hover {
+  color: #000;
+  text-decoration: none;
+}
+a[data-fn-set-item] figure {
+  transition: transform 0.3s linear;
+}
+a[data-fn-set-item]:hover figure {
+  transform: scale(1.1);
+}
+#menu-mobile {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: -120%;
+  top: 0;
+  background-color: #000;
+  transition: all 0.4s linear;
+}
+#menu-mobile .container {
+  margin-top: 80px;
+}
+#menu-mobile .container h3 {
+  color: #fff;
+}
+#menu-mobile .list-group {
+  width: 60%;
+}
+#menu-mobile .list-group-item {
+  margin-bottom: 2.5rem;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 5px;
+}
+#menu-mobile .list-group-item .btn-link {
+  display: block;
+}
+.menu-open #menu-mobile {
+  left: 0;
+}
+#lista-contactos li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+#lista-contactos .fa {
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+#lista-contactos .fa-whatsapp {
+  color: #25d366;
+}
+#lista-contactos .fa-facebook {
+  color: #3b5998;
+}

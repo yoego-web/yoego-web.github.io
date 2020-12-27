@@ -1,0 +1,236 @@
+<ul class="c-code-layer language-js">
+	<li class="c-code-layer__line">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">function</span> <span class="token function">PictureMedia</span><span class="token punctuation">(</span><span class="token parameter">btnShow<span class="token punctuation">,</span> clsShow<span class="token punctuation">,</span> clsFlip</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>btnShow <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span>btnShow<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>clsShow <span class="token operator">=</span> clsShow<span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>clsFlip <span class="token operator">=</span> clsFlip<span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>clsSocials <span class="token operator">=</span> <span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token string">'youtube'</span><span class="token punctuation">:</span> <span class="token string">'select--youtube'</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token string">'facebook'</span><span class="token punctuation">:</span> <span class="token string">'select--facebook'</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token string">'tumblr'</span><span class="token punctuation">:</span> <span class="token string">'select--tumblr'</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token string">'twitter'</span><span class="token punctuation">:</span> <span class="token string">'select--twitter'</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token class-name">PictureMedia</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> <span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">init</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setCLickBtnShow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">setCLickBtnShow</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">var</span> self <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>btnShow<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-3">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">var</span> modeShow <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">data</span><span class="token punctuation">(</span><span class="token string">'picture-media-show-mode'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-3">
+		<span class="c-code-layer__line__line-show"></span>
+		modeShow <span class="token operator">==</span> <span class="token string">'social'</span> <span class="token operator">?</span> 
+	</li>
+	<li class="c-code-layer__line tab-4">
+		<span class="c-code-layer__line__line-show"></span>
+		self<span class="token punctuation">.</span><span class="token function">setClsShowSocial</span><span class="token punctuation">(</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">data</span><span class="token punctuation">(</span><span class="token string">'picture-media-social'</span><span class="token punctuation">)</span> <span class="token punctuation">)</span> <span class="token punctuation">:</span>
+	</li>
+	<li class="c-code-layer__line tab-4">
+		<span class="c-code-layer__line__line-show"></span>
+		self<span class="token punctuation">.</span><span class="token function">setClassShow</span><span class="token punctuation">(</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">,</span> modeShow<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">setClassShow</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">btnCurrent<span class="token punctuation">,</span> modeShow</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">var</span> cls <span class="token operator">=</span> modeShow <span class="token operator">==</span> <span class="token string">'flip'</span> <span class="token operator">?</span> <span class="token keyword">this</span><span class="token punctuation">.</span>clsFlip <span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>clsShow<span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		btnCurrent<span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toggleClass</span><span class="token punctuation">(</span>cls<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">setClsShowSocial</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">btnCurrent<span class="token punctuation">,</span> clsSocial</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		btnCurrent<span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toggleClass</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>clsSocials<span class="token punctuation">[</span>clsSocial<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">constructor</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+	</li>
+	<li class="c-code-layer__line">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">function</span> <span class="token function">SliderPages</span><span class="token punctuation">(</span><span class="token parameter">elWrapper<span class="token punctuation">,</span> nroSliders</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>el <span class="token operator">=</span> <span class="token function">$</span><span class="token punctuation">(</span>elWrapper<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>nroSliders <span class="token operator">=</span> nroSliders<span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>unityMove <span class="token operator">=</span> <span class="token number">100</span> <span class="token operator">/</span> <span class="token keyword">this</span><span class="token punctuation">.</span>nroSliders<span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>currentPage <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>dir <span class="token operator">=</span> <span class="token string">'-'</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token class-name">SliderPages</span><span class="token punctuation">.</span>prototype <span class="token operator">=</span> <span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">init</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">movePage</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">movePage</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">page</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>currentPage <span class="token operator">=</span> page<span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setDirection</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">var</span> move <span class="token operator">=</span> <span class="token function">String</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>dir <span class="token operator">+</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>unityMove <span class="token operator">*</span> <span class="token keyword">this</span><span class="token punctuation">.</span>currentPage<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>el<span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'transform'</span><span class="token punctuation">,</span> <span class="token string">'translateX('</span><span class="token operator">+</span>move<span class="token operator">+</span><span class="token string">'%)'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">setDirection</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>dir <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>currentPage <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">?</span> <span class="token string">''</span> <span class="token punctuation">:</span> <span class="token string">'-'</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token function-variable function">resetPosition</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	</li>
+	<li class="c-code-layer__line tab-2">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>el<span class="token punctuation">.</span><span class="token function">css</span><span class="token punctuation">(</span><span class="token string">'transform'</span><span class="token punctuation">,</span> <span class="token string">'translateX(0)'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	</li>
+	<li class="c-code-layer__line tab-1">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token function-variable function">constructor</span><span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+	</li>
+	<li class="c-code-layer__line">
+		<span class="c-code-layer__line__line-show"></span>
+		<span class="token punctuation">}</span><span class="token punctuation">;</span>		
+	</li>
+
+</ul>
