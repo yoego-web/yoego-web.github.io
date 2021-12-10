@@ -82,8 +82,14 @@ define([], function(){
 					'text': 'jQuery',
 					'level': '92%'
 				},{
-					'text': 'Angular 1/5',
+					'text': 'Angular 2+',
 					'level': '60%'
+				},{
+					'text': 'React 17+',
+					'level': '50%'
+				},{
+					'text': 'Vue js - 2 | 3',
+					'level': '70%'
 				},{
 					'text': 'Gulp / Grunt',
 					'level': '70%'
